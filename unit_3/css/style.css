@@ -1,0 +1,74 @@
+
+body {
+	font-family: "Didot", Times New Roman, Serif;
+	color: #222222;
+}
+
+h1 {
+	font-size: 25px;
+	text-align: left;
+}
+
+nav {
+	text-align: right;
+	text-decoration: none;
+	margin-right: 25px;
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+	color: #82A0D0;
+}
+
+#HeroImageText {
+	background: url("../images/office.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 300px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+#slogan {
+	font-size: 25px;
+}
+
+div {
+	text-align: center;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+.ServiceSubtext {
+	font-size: 20px;
+}
+
+#BeautifulImage {
+	width: 45%;
+}
+
+#ResponsiveImage {
+	width: 45%;
+}
+
+#SEOImage {
+	width: 45%;
+}
+
+#ContactMeLandingPageForm {
+	background-color: #f0f0f0;
+	padding: 50px;
+}
+
+h3 {
+	font-size: 35px;
+}
+
+h5 {
+	font-size: 20px;
+}
