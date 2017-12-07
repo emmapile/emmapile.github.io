@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Spectral');
+
+body {
+	color: #222222;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+	font-size: 25px;
+	text-align: left;
+}
+
+nav {
+	text-align: right;
+	text-decoration: none;
+	margin-right: 25px;
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+	color: #82A0D0;
+}
+
+#HeroImageText {
+	background: url("../images/office.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 300px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+p, a {
+	font-family: 'Spectral', serif;
+}
+
+#slogan {
+	font-size: 25px;
+}
+
+div {
+	text-align: center;
+}
+
+h4 {
+	font-size: 35px;
+}
+
+.ServiceSubtext {
+	font-size: 20px;
+}
+
+#BeautifulImage {
+	width: 45%;
+}
+
+#ResponsiveImage {
+	width: 45%;
+}
+
+#SEOImage {
+	width: 45%;
+}
+
+#ContactMeLandingPageForm {
+	background-color: #f0f0f0;
+	padding: 50px;
+}
+
+#contactme {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 35px;
+}
+
+h5 {
+	font-size: 20px;
+}
