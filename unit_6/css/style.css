@@ -12,41 +12,45 @@ body {
 }
 
 h1 {
-	font-size: 25px;
+	font-size: 23px;
+	font-family: 'Quicksand', sans-serif;
+	color: #222222;
 	text-align: left;
 	float: left;
+	margin-left: 30px;
+	background: #CED5E7;
+	padding: 15px 25px;
 }
 
 nav {
-	text-align: right;
 	text-decoration: none;
-	margin-right: 25px;
-	text-align: right;
-	letter-spacing: 2px;
+	margin-right: 50px;
+	margin-top: 20px;
+	letter-spacing: 1.5px;
 	word-spacing: 10px;
 	float: right;
-	clear: both;
 }
 
 a {
 	text-decoration: none;
 	color: #82A0D0;
+	font-family: 'Quicksand', sans-serif;
 }
 
-div {
-	clear: right;
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
+a:hover {
+	color: #708090;
+	font-weight: bold;
 }
 
 main {
 	margin: 80px;
 }
 
-h1, h2, h3, h4 {
+h2, h3, h4 {
+	clear: both;
 	font-family: 'Quicksand', sans-serif;
 	padding: 20px;
+	text-align: center;
 }
 
 #HeroImageText {
@@ -61,7 +65,7 @@ h2 {
 	padding: 20px;
 }
 
-p, a {
+p {
 	font-family: 'Spectral', serif;
 }
 
@@ -79,28 +83,67 @@ h4 {
 	padding: 20px;
 	text-align: center;
 	width: 600px;
-	float: right;
 }
 
 .ServiceSubtext {
 	font-size: 20px;
-	width: 600px;
 	text-align: center;
-	float: right;
 }
 
 
 #BeautifulImage, #ResponsiveImage, #SEOImage {
-	width: 45%;
+	width: 45%; 
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: "both";
+	height: 0;
+}
+
+#BeautifulImage {
 	float: left;
+}
+
+#BeautifulText {
+	float: right;
+	width: 600px;
+	margin-top: 90px;
+	padding-left: 30px;
+}
+
+#ResponsiveImage {
 	clear: both;
+	float: right;
+}
+
+#ResponsiveText {
+	float: left;
+	width: 600px;
+	margin-top: 90px;
+	padding-right: 30px;
+}
+
+#SEOImage {
+	clear: both;
+	float: left;
+}
+
+#SEOText {
+	float: right;
+	width: 600px;
+	margin-top: 90px;
+	padding-left: 30px;
 }
 
 #ContactMeLandingPageForm {
 	background-color: #f0f0f0;
 	padding: 50px;
 	text-align: center;
-	margin: 25px 0;
+	margin: 30px 0px;
 	clear: both;
 }
 
@@ -120,9 +163,10 @@ h5 {
 footer {
 	text-align: center;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 footer a {
-	margin-left: 10px;
-	letter-spacing: 2px;
+	margin-left: 20px;
+	letter-spacing: 1.5px;
 }
