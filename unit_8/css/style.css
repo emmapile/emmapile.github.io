@@ -1,0 +1,300 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Spectral');
+/*@import url('https://fonts.googleapis.com/css?family=Bad+Script|La+Belle+Aurore');
+*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #222222;
+}
+
+h1 {
+	font-size: 1.3em;
+	font-family: 'Quicksand', sans-serif;
+	color: #222222;
+	text-align: left;
+	float: left;
+	margin-left: 30px;
+	background: #CED5E7;
+	padding: 15px 25px;
+}
+
+nav {
+	text-decoration: none;
+	margin-right: 50px;
+	margin-top: 20px;
+	letter-spacing: 1.5px;
+	word-spacing: 10px;
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	color: #82A0D0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+a:hover {
+	color: #708090;
+	font-weight: bold;
+}
+
+a:active {
+	color: #708090;
+	font-weight: bold;
+}
+
+main {
+	margin: 80px;
+}
+
+h2, h3, h4 {
+	clear: both;
+	font-family: 'Quicksand', sans-serif;
+	padding: 20px;
+	text-align: center;
+}
+
+#HeroImageText {
+	background: url("../images/office.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 300px;
+}
+
+h2 {
+	font-size: 3em;
+	padding: 20px;
+}
+
+p {
+	font-family: 'Spectral', serif;
+}
+
+#slogan {
+	font-size: 1.5em;
+}
+
+#scroll {
+	padding-top: 30px;
+	display: none;
+}
+
+
+h4 {
+	font-size: 2.2em;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+}
+
+.ServiceSubtext {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+
+#BeautifulImage, #ResponsiveImage, #SEOImage {
+	width: 45%; 
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#BeautifulImage {
+	float: left;
+}
+
+#BeautifulText {
+	float: right;
+	max-width: 600px;
+	margin-top: 90px;
+	/*padding-left: 30px;*/
+}
+
+#ResponsiveImage {
+	clear: both;
+	float: right;
+}
+
+#ResponsiveText {
+	float: left;
+	max-width: 600px;
+	margin-top: 90px;
+	/*padding-right: 30px;*/
+}
+
+#SEOImage {
+	clear: both;
+	float: left;
+}
+
+#SEOText {
+	float: right;
+	max-width: 600px;
+	margin-top: 90px;
+	/*padding-left: 30px;*/
+}
+
+#ContactMeLandingPageForm {
+	background-color: #f0f0f0;
+	padding: 50px;
+	text-align: center;
+	margin: 30px 0px;
+	clear: both;
+}
+
+#contactme {
+	font-size: 20px;
+	padding-bottom: 20px
+}
+
+h3 {
+	font-size: 35px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+footer a {
+	margin-left: 20px;
+	letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 1250px) {
+	
+	#BeautifulText, #BeautifulImage, #ResponsiveText, #ResponsiveImage, #SEOText, #SEOImage {
+		float: none;
+		margin: auto;
+	}
+
+	#BeautifulImage, #ResponsiveImage, #SEOImage {
+		width: 60%;
+		display: block;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 1159px) {
+
+	#HeroImageText {
+		padding: 250px;
+	}
+}
+
+@media screen and (max-width: 1013px) {
+	
+	#HeroImageText {
+		padding: 200px;
+	}
+}
+
+@media screen and (max-width: 813px) {
+	
+	#HeroImageText {
+		padding: 150px;
+	}
+}
+
+@media screen and (max-width: 713px) {
+	
+	#HeroImageText {
+		padding: 100px;
+	}
+}
+
+@media screen and (max-width:685px) {
+	
+	#BeautifulImage, #ResponsiveImage, #SEOImage, #BeautifulText, #ResponsiveText, #SEOText, h4 {
+		width: 300px;
+	}
+
+	#ServiceSubText, h4 {
+
+	}
+}
+
+@media screen and (max-width: 613px) {
+	
+	h2 {
+		font-size: 40px;
+	}
+	#slogan {
+		font-size: 20px;
+	}
+	#scroll {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 551px) {
+	
+	h2 {
+		font-size: 35px;
+	}
+	#slogan {
+		font-size: 20px;
+	}
+	#scroll {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 551px) {
+	nav {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	nav a {
+		display: block;
+		float: none;
+	}
+}	
+
+@media screen and (max-width: 409px) {
+	
+	h2 {
+		font-size: 32px;
+	}
+	#slogan {
+		font-size: 20px;
+	}
+	#scroll {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 385px) {
+	
+	h2 {
+		font-size: 30px;
+	}
+	#slogan {
+		font-size: 20px;
+	}
+	#scroll {
+		display: none;
+	}
+}
+
+
