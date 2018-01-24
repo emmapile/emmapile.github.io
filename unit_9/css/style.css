@@ -1,0 +1,359 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Spectral');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #222222;
+}
+
+#logo {
+	width: 10%;
+	display: inline-block;
+	float: left;
+}
+
+h1 {
+	font-size: 1.3em;
+	font-family: 'Quicksand', sans-serif;
+	color: #222222;
+	text-align: left;
+	float: left;
+	margin-left: 30px;
+	background: #CED5E7;
+	padding: 15px 25px;
+}
+
+#logo {
+	width: 20%;
+}
+
+nav {
+	text-decoration: none;
+	margin-right: 50px;
+	margin-top: 25px;
+	letter-spacing: 1.5px;
+	word-spacing: 40px;
+	float: right;
+	text-decoration: none;
+	color: #222222;
+	font-weight: bold italic;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#hamburgericon {
+	display: none;
+}
+
+#toggle {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: #222222;
+	font-weight: bold italic;
+	font-family: 'Quicksand', sans-serif;
+	padding: 8px;
+}
+
+a:hover {
+	background: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 3px #ffff00;
+    border: 1px;
+}
+
+a:active {
+	color: #ffff00;
+	font-weight: bold;
+}
+
+main {
+	margin: 80px;
+}
+
+h2 {
+	font-size: 3em;
+	padding: 20px;
+	font-weight: bold;
+	color: #ffff00;
+}
+
+h2, h3, h4 {
+	clear: both;
+	font-family: 'Quicksand', sans-serif;
+	padding: 20px;
+	text-align: center;
+}
+
+#HeroImageText {
+	background: url("../images/office.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 300px;
+}
+
+p {
+	font-family: 'Spectral', serif;
+}
+
+#slogan {
+	font-size: 1.5em;
+}
+
+#scroll {
+	padding-top: 30px;
+	display: none;
+}
+
+
+h4 {
+	font-size: 2.2em;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+}
+
+.ServiceSubtext {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+#Beautiful {
+	clear: both;
+}
+
+#BeautifulImage, #ResponsiveImage, #SEOImage {
+	width: 45%; 
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#BeautifulImage {
+	float: left;
+}
+
+#BeautifulText {
+	float: right;
+	max-width: 600px;
+	margin-top: 90px;
+}
+
+#ResponsiveImage {
+	clear: both;
+	float: right;
+}
+
+#ResponsiveText {
+	float: left;
+	max-width: 600px;
+	margin-top: 90px;
+}
+
+#SEOImage {
+	clear: both;
+	float: left;
+}
+
+#SEOText {
+	float: right;
+	max-width: 600px;
+	margin-top: 90px;
+}
+
+#ContactMeLandingPageForm {
+	background-color: #f0f0f0;
+	padding: 50px;
+	text-align: center;
+	margin: 30px 0px;
+	clear: both;
+}
+
+#contactme {
+	font-size: 20px;
+	padding-bottom: 20px
+}
+
+h3 {
+	font-size: 35px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+footer a {
+	letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 1250px) {
+	
+	#BeautifulText, #BeautifulImage, #ResponsiveText, #ResponsiveImage, #SEOText, #SEOImage {
+		float: none;
+		margin: auto;
+	}
+
+	#BeautifulImage, #ResponsiveImage, #SEOImage {
+		width: 60%;
+		display: block;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 1159px) {
+
+	#HeroImageText {
+		padding: 250px;
+	}
+
+	#logo {
+		width: 210px;
+	}
+}
+
+@media screen and (max-width: 1013px) {
+	
+	#HeroImageText {
+		padding: 200px;
+	}
+}
+
+@media screen and (max-width: 813px) {
+	
+	#HeroImageText {
+		padding: 150px;
+	}
+}
+
+
+@media screen and (max-width: 750px) {
+
+	#hamburgericon {
+		display: inline-block;
+		width: 50px;
+		float: right;
+	}
+
+	nav {
+		display: none;
+	}
+	nav a {
+		float: none;
+		text-align: center;
+		display: block;
+		padding: 2px;
+		font-size: 13px;
+	}
+
+	a:hover {
+		background: rgba(0,0,0,0);
+    	box-shadow: inset 0 0 0 0 #;
+
+	}
+
+	#toggle:checked + nav {
+		display: block;
+		margin-right: 0px;
+		margin-top: 0px;
+		letter-spacing: 1.5px;
+	}
+}
+
+@media screen and (max-width: 713px) {
+	
+	#HeroImageText {
+		padding: 100px;
+	}
+}
+
+@media screen and (max-width:685px) {
+	
+	#BeautifulImage, #ResponsiveImage, #SEOImage, #BeautifulText, #ResponsiveText, #SEOText, h4 {
+		width: 300px;
+	}
+
+
+@media screen and (max-width: 613px) {
+	
+	h2 {
+		font-size: 40px;
+	}
+	#slogan {
+		font-size: 20px;
+	}
+	#scroll {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 551px) {
+	
+	h2 {
+		font-size: 35px;
+	}
+	#slogan {
+		font-size: 20px;
+	}
+	#scroll {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 551px) {
+	nav {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	nav a {
+		display: block;
+		float: none;
+	}
+}	
+
+@media screen and (max-width: 409px) {
+	
+	h2 {
+		font-size: 32px;
+	}
+	#slogan {
+		font-size: 20px;
+	}
+	#scroll {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 385px) {
+	
+	h2 {
+		font-size: 30px;
+	}
+	#slogan {
+		font-size: 20px;
+	}
+	#scroll {
+		display: none;
+	}
+}
+
+
